@@ -1,14 +1,8 @@
 {
-    "name": "bitwasp/bitcoin-lib",
+    "name": "nekulin/bitcoin-lib",
     "description": "Implementation of raw transactions in bitcoin, HD wallets, Electrum wallets, and other fun stuff.",
     "keywords": ["bitcoin", "php", "bip32", "electrum", "ecc", "transactions", "HD wallet","btc", "cryptocurrency"],
     "license": "Unlicense",
-    "authors": [
-        {
-            "name": "Thomas Kerin",
-            "email": "thomas.kerin@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "BitWasp\\BitcoinLib\\": "src/"
@@ -16,7 +10,7 @@
     },
     "require": {
         "mdanter/ecc": "~0.3.0",
-        "php": ">=5.3.3",
+        "php": ">=8.3",
         "rych/hash_pbkdf2-compat": "~1.0",
         "ext-gmp": "*",
         "ext-bcmath": "*",
